@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "usr-teacher-1",
+      "name": "Dr. Sarah Jenkins",
+      "email": "dr.jenkins@harvard.edu",
+      "password_hash": "2acd31ab2f66d9703910bc015f7014469b534c4ae14edce2d3da15840da1d4e8",
+      "role": "TEACHER",
+      "is_active": true,
+      "created_at": 1786726776050,
+      "updated_at": 1786726776050
+    },
+    {
+      "id": "usr-student-1",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@student.edu",
+      "password_hash": "2acd31ab2f66d9703910bc015f7014469b534c4ae14edce2d3da15840da1d4e8",
+      "role": "STUDENT",
+      "is_active": true,
+      "created_at": 1786726776051,
+      "updated_at": 1786726776051
+    },
+    {
+      "id": "usr-e8e54x8",
+      "name": "Alex Rivera",
+      "email": "student@edugester.com",
+      "password_hash": "2acd31ab2f66d9703910bc015f7014469b534c4ae14edce2d3da15840da1d4e8",
+      "role": "TEACHER",
+      "is_active": true,
+      "created_at": 1786727156112,
+      "updated_at": 1786727156112
+    },
+    {
+      "id": "usr-gs3j02a",
+      "name": "Alex Rivera1",
+      "email": "student@edugestr.com",
+      "password_hash": "2acd31ab2f66d9703910bc015f7014469b534c4ae14edce2d3da15840da1d4e8",
+      "role": "STUDENT",
+      "is_active": true,
+      "created_at": 1786727211731,
+      "updated_at": 1786727211731
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "cls-5vyo570",
+      "class_code": "BIO7X2",
+      "class_name": "Human Heart Anatomy",
+      "subject": "Biology",
+      "description": "3D Human Heart Anatomy & Circulation Lesson",
+      "teacher_id": "usr-teacher-1",
+      "teacher_name": "Dr. Sarah Jenkins",
+      "status": "LIVE",
+      "current_model": "heart",
+      "current_lesson": "Human Heart Anatomy",
+      "created_at": 1786726776053,
+      "started_at": 1786726776053,
+      "ended_at": null
+    },
+    {
+      "id": "cls-13q7vqw",
+      "class_code": "BIOAEF",
+      "class_name": "Human Heart Anatomy",
+      "subject": "Biology",
+      "description": "Interactive 3D Lesson Session",
+      "teacher_id": "usr-e8e54x8",
+      "teacher_name": "Alex Rivera",
+      "status": "LIVE",
+      "current_model": "solar",
+      "current_lesson": "Human Heart Anatomy",
+      "created_at": 1786727165846,
+      "started_at": 1786727165846,
+      "ended_at": null
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr-2qzoyqf",
+      "classroom_id": "cls-13q7vqw",
+      "student_id": "usr-student-1",
+      "joined_at": 1786727218983,
+      "left_at": null,
+      "status": "ACTIVE"
+    }
+  ],
+  "classroom_states": [
+    {
+      "id": "st-aabf4ru",
+      "classroom_id": "cls-5vyo570",
+      "model_id": "heart",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "animation_state": "playing",
+      "highlighted_part": null,
+      "lesson_state": "Human Heart Anatomy",
+      "version": 1,
+      "updated_at": 1786726776058
+    },
+    {
+      "id": "st-d0v0zph",
+      "classroom_id": "cls-13q7vqw",
+      "model_id": "solar",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -0.22957423434598326,
+        "y": -0.020665526514318338,
+        "z": 0
+      },
+      "scale": {
+        "x": 0.49877896419451956,
+        "y": 0.49877896419451956,
+        "z": 0.49877896419451956
+      },
+      "animation_state": "playing",
+      "highlighted_part": null,
+      "lesson_state": "Human Heart Anatomy",
+      "version": 190,
+      "updated_at": 1786727184253
+    }
+  ],
+  "teacher_live_sessions": []
+}
